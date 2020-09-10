@@ -10,7 +10,7 @@ export class ProductItemComponent implements OnInit {
   @Input() productItem: Product;
 // [x:string]:any;
 
-first_stage: boolean[];
+// first_stage: boolean[];
   constructor() {
 
   }

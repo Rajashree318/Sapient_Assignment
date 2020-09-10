@@ -8,9 +8,9 @@ export class Product {
    launch_year: number;
    land_success:string;
    launch_success:any;
-   rocket:string;
-   first_stage:boolean;
-   cores:boolean;
+   rocket:any;
+   first_stage:any;
+   cores:any;
    links:any;
    flickr_images: string;
     constructor(mission_name, flight_number,mission_id,launch_year = 0,launch_success,land_success,rocket, first_stage,flickr_images = ' ') {
