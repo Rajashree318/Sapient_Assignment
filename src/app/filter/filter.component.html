@@ -1,0 +1,42 @@
+<div class="card filters">
+    <div class="card-header"><strong><h4>Filters</h4></strong></div>
+    <div class="card-body">
+        <form>
+            <div class="formgroup" style="text-align: center;">
+                <p>Launch Year</p>
+                <hr>
+            </div>
+            <div class="formgroup">
+                <button type="button" class="{{yearFilter === 2006 ? 'button1 active' : 'button1'}}" (click)="handleYearFilter(2006)">2006</button>
+                <button type="button" class="{{yearFilter === 2007 ? 'button2 active' : 'button2'}}" (click)="handleYearFilter(2007)">2007</button> <br>
+                <button type="button" class="{{yearFilter === 2008 ? 'button1 active' : 'button1'}}" (click)="handleYearFilter(2008)">2008</button>
+                <button type="button" class="{{yearFilter === 2009 ? 'button2 active' : 'button2'}}" (click)="handleYearFilter(2009)">2009</button> <br>
+                <button type="button" class="{{yearFilter === 2010 ? 'button1 active' : 'button1'}}" (click)="handleYearFilter(2010)">2010</button>
+                <button type="button" class="{{yearFilter === 2011 ? 'button2 active' : 'button2'}}" (click)="handleYearFilter(2011)">2011</button> <br>
+                <button type="button" class="{{yearFilter === 2012 ? 'button1 active' : 'button1'}}" (click)="handleYearFilter(2012)">2012</button>
+                <button type="button" class="{{yearFilter === 2013 ? 'button2 active' : 'button2'}}" (click)="handleYearFilter(2013)">2013</button> <br>
+                <button type="button" class="{{yearFilter === 2014 ? 'button1 active' : 'button1'}}" (click)="handleYearFilter(2014)">2014</button>
+                <button type="button" class="{{yearFilter === 2015 ? 'button2 active' : 'button2'}}" (click)="handleYearFilter(2015)">2015</button> <br>
+                <button type="button" class="{{yearFilter === 2016 ? 'button1 active' : 'button1'}}" (click)="handleYearFilter(2016)">2016</button>
+                <button type="button" class="{{yearFilter === 2017 ? 'button2 active' : 'button2'}}" (click)="handleYearFilter(2017)">2017</button> <br>
+                <button type="button" class="{{yearFilter === 2018 ? 'button1 active' : 'button1'}}" (click)="handleYearFilter(2018)">2018</button>
+                <button type="button" class="{{yearFilter === 2019 ? 'button2 active' : 'button2'}}" (click)="handleYearFilter(2019)">2019</button> <br>
+                <button type="button" class="{{yearFilter === 2020 ? 'button1 active' : 'button1'}}" (click)="handleYearFilter(2020)">2020</button>
+
+            </div><br>
+            <div class="formgroup" style="text-align: center;">
+                <p>Successful Launch</p>
+                <hr>
+                <button type="button" class="{{launchFilter === true ? 'button1 active' : 'button1'}}" (click)="handleLaunchFilter(true)">True</button>
+                <button type="button" class="{{launchFilter === false ? 'button2 active' : 'button2'}}" (click)="handleLaunchFilter(false)">False</button><br>
+            </div><br>
+            <div class="formgroup" style="text-align: center;">
+                <p>Successful Landing</p>
+                <hr>
+                <button type="button" class="{{landingFilter === true ? 'button1 active' : 'button1'}}" (click)="handleLandingFilter(true)">True</button>
+                <button type="button" class="{{landingFilter === false ? 'button2 active' : 'button2'}}" (click)="handleLandingFilter(false)">False</button>
+            </div>
+
+        </form>
+    </div>
+</div>
