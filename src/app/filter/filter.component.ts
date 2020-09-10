@@ -17,6 +17,7 @@ export class FilterComponent implements OnInit {
   yearFilter = '';
   launchFilter = '';
   landingFilter = '';
+  [x:string]:any;
 
   ngOnInit() {
   }

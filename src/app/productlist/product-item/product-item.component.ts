@@ -8,7 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ProductItemComponent implements OnInit {
   @Input() productItem: Product;
-
+[x:string]:any;
   constructor() {
 
   }
