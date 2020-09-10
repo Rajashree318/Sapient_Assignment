@@ -9,8 +9,9 @@ const API_URL ='https://api.spacexdata.com/v3/launches?limit=100';
 })
 export class ProductlistComponent implements OnInit {
   @Input() products: Product[];
-  productList: Product[]=[]
+  productList: Product[]=[];
  
+ [x:string]:any;
   constructor(private shopinglistproductService: ShopinglistproductService) { }
 
   ngOnInit() {

@@ -8,7 +8,9 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ProductItemComponent implements OnInit {
   @Input() productItem: Product;
-[x:string]:any;
+// [x:string]:any;
+
+first_stage: boolean[];
   constructor() {
 
   }
